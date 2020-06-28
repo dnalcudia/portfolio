@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+  margin-left: 70px;
+  margin-right: 70px;
+  position: sticky;
+  top: 34px;
+  z-index: 15;
+  color: #1c1c1c;
+}
+.header-title {
+  font-size: 13px;
+  color: #1c1c1c;
+}
+.header-title:hover {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+.header-item {
+  width: 48px;
+  height: 21px;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+}
+.header-item:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #1c1c1c;
+  color: #1c1c1c;
+}
+.header-projects {
+  margin-right: 9px;
+}
+.header-ig {
+  margin-right: 9px;
+}
