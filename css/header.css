@@ -5,10 +5,8 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 38px;
-  margin-left: 70px;
-  margin-right: 70px;
   position: sticky;
-  top: 34px;
+  top: 38px;
   z-index: 15;
   color: #1c1c1c;
 }
@@ -41,7 +39,9 @@
 }
 .header-projects {
   margin-right: 9px;
+  margin-left: 32px;
 }
-.header-ig {
-  margin-right: 9px;
+.header-tw {
+  margin-left: 9px;
+  margin-right: 32px;
 }
