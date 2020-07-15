@@ -45,3 +45,15 @@
   margin-left: 9px;
   margin-right: 32px;
 }
+
+@media (max-width: 380px) {
+  .header {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .header-title,
+  .header-ig {
+    margin-left: 32px;
+  }
+}

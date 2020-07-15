@@ -17,9 +17,9 @@
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
-  margin: 0 auto 4vw;
+  margin: 10px auto 4vw;
   cursor: pointer;
-  box-shadow: 3px 3px 18px 0 rgba(121, 121, 121, 0.1);
+  box-shadow: 3px 3px 18px 0 rgba(121, 121, 121, 0.15);
 }
 .projects-item div {
   position: absolute;
