@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <title>d.a. | daniel alcudia</title>
@@ -40,7 +41,7 @@
     <br />
     <div class="container">
       <div class="single-project">
-        <div class="content-default">
+        <div class="content-default" data-aos="fade-up">
           <h2>News</h2>
           <div
             id="carouselExampleIndicators"
@@ -119,19 +120,19 @@
         </div>
         <br />
         <div class="row">
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <span><strong>Role</strong></span> <br />
             <span>Frontend - UI</span>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <span><strong>Date</strong></span> <br />
             <span>May, 2020</span>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <span><strong>Categories</strong></span> <br />
             <span>HTML - CSS - JS</span>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <span><strong>Repository</strong></span> <br />
             <a href="https://github.com/dnalcudia/news-php" target="blank">
               <img src="../img/github-image.svg" alt="" />
@@ -144,5 +145,8 @@
       <span class="credits">Ⓒ d.a.</span>
     </footer>
   </body>
-  <script></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

@@ -9,6 +9,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/about.css" />
@@ -36,7 +37,7 @@
         >
       </div>
     </header>
-    <div class="about">
+    <div class="about" data-aos="fade-up">
       <div class="content-default">
         <h1>d.a. / ダニエル</h1>
         <div>
@@ -67,5 +68,9 @@
     <footer>
       <span class="credits">Ⓒ d.a.</span>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
